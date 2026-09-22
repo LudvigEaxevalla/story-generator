@@ -1,0 +1,14 @@
+/home/ludvig/Documents/Programming/Picker/Picker/bin/Debug/net10.0/Picker
+/home/ludvig/Documents/Programming/Picker/Picker/bin/Debug/net10.0/Picker.deps.json
+/home/ludvig/Documents/Programming/Picker/Picker/bin/Debug/net10.0/Picker.runtimeconfig.json
+/home/ludvig/Documents/Programming/Picker/Picker/bin/Debug/net10.0/Picker.dll
+/home/ludvig/Documents/Programming/Picker/Picker/bin/Debug/net10.0/Picker.pdb
+/home/ludvig/Documents/Programming/Picker/Picker/obj/Debug/net10.0/Picker.GeneratedMSBuildEditorConfig.editorconfig
+/home/ludvig/Documents/Programming/Picker/Picker/obj/Debug/net10.0/Picker.AssemblyInfoInputs.cache
+/home/ludvig/Documents/Programming/Picker/Picker/obj/Debug/net10.0/Picker.AssemblyInfo.cs
+/home/ludvig/Documents/Programming/Picker/Picker/obj/Debug/net10.0/Picker.csproj.CoreCompileInputs.cache
+/home/ludvig/Documents/Programming/Picker/Picker/obj/Debug/net10.0/Picker.dll
+/home/ludvig/Documents/Programming/Picker/Picker/obj/Debug/net10.0/refint/Picker.dll
+/home/ludvig/Documents/Programming/Picker/Picker/obj/Debug/net10.0/Picker.pdb
+/home/ludvig/Documents/Programming/Picker/Picker/obj/Debug/net10.0/Picker.genruntimeconfig.cache
+/home/ludvig/Documents/Programming/Picker/Picker/obj/Debug/net10.0/ref/Picker.dll

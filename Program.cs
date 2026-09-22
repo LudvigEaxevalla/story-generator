@@ -1,0 +1,62 @@
+﻿Random random = new Random();
+TypeEffects type = new TypeEffects();
+int delay = 20;
+
+
+string[] genre = new string[] { "Action", "Comedy", "Drama", "Horror", "Romance", "Sci-Fi", "Thriller", "Fantasy", "Mystery", "Adventure", "Crime", "Historical", "Musical", "Western", "War", "Documentary", "Animation", "Family", "Sports", "Biographical" };
+string[] setting = new string[] { "Medieval", "Modern", "Futuristic", "Post-Apocalyptic", "Fantasy", "Space", "Underwater", "Urban", "Rural", "Desert", "Jungle", "Arctic", "Virtual Reality", "Steampunk", "Cyberpunk", "Noir", "Historical", "Mythical", "Supernatural", "Dystopian" };
+string[] strings = new string[] { "A group of friends", "A lone hero", "An unlikely duo", "A family", "A team of misfits", "A secret society",("A mysterious stranger"),("An alien race"),("A talking animal"),("A time traveler") };
+string[] protagonist = new string[] { "a ruthless dictator", "a brave warrior", "a clever detective", "a rebellious teenager", "a wise mentor", "a cunning villain", "a charming rogue", "a misunderstood genius", "a loyal companion", "a fearless leader", "a reluctant hero" };
+string[] protagonistTrait = new string[] { "who is haunted by their past", "who is seeking redemption", "who is on a quest for power", "who is trying to save their loved ones", "who is struggling with their identity", "who is determined to uncover the truth", "who is torn between duty and desire", "who is facing a moral dilemma", "who is driven by revenge", "who is searching for meaning in life" };
+string[] antagonist = new string[] { "a ruthless dictator", "a literal baby", "some random guy", "a vengeful ghost", "a really nice but misunderstood person","a child","a corrupt politician", "a good person", "a cunning thief", "a powerful sorcerer", "a dangerous criminal", "a manipulative business tycoon", "a jealous rival", "a monstrous creature", "an evil mastermind" };
+string[] antagonistTrait = new string[] { "that is seeking revenge", "that is trying to take over the world", "that is hiding a dark secret", "that is obsessed with power",("that is manipulating others for their own gain"),("that is driven by jealousy"),("that is haunted by their past"),("that is trying to prove themselves"),("that is seeking redemption"),("that is determined to destroy their enemies") };
+string[] motivation = new string[] { "to save the world",("to find true love"),("to uncover a hidden truth"),("to seek revenge"),("to protect their family"),("to achieve greatness"),("to escape their past"),("to discover a new world"),("to prove themselves"),("to fulfill a prophecy"), "to have fun again" };
+
+
+Console.WriteLine("Press enter to generate a random story idea, or type 'exit' to quit.");
+while (true)
+{
+    string input = Console.ReadLine() ?? string.Empty;
+    if (string.Equals(input, "exit", StringComparison.OrdinalIgnoreCase))
+    {
+        break;
+    }
+
+    if (!string.IsNullOrWhiteSpace(input))
+    {
+        Console.WriteLine("Press enter to generate a story idea, or type 'exit' to quit.");
+        continue;
+    }
+
+    //Console.WriteLine($"{strings[random.Next(strings.Length)]} in a {setting[random.Next(setting.Length)]} {genre[random.Next(genre.Length)]} story, featuring {protagonist[random.Next(protagonist.Length)]} {protagonistTrait[random.Next(protagonistTrait.Length)]}, who must face {antagonist[random.Next(antagonist.Length)]} {antagonistTrait[random.Next(antagonistTrait.Length)]}, in order {motivation[random.Next(motivation.Length)].ToLowerInvariant()}.");
+    Console.ForegroundColor = ConsoleColor.Cyan;
+    type.TypeWrite(strings[random.Next(strings.Length)], delay);
+    Console.ForegroundColor = ConsoleColor.Gray;
+    type.TypeWrite(" in a ", delay);
+    Console.ForegroundColor = ConsoleColor.Green;
+    type.TypeWrite(setting[random.Next(setting.Length)], delay);
+    Console.ForegroundColor = ConsoleColor.Yellow;
+    type.TypeWrite(" ", delay);
+    type.TypeWrite(genre[random.Next(genre.Length)], delay);
+    Console.ForegroundColor = ConsoleColor.Gray;
+    type.TypeWrite(" story, featuring\n", delay);
+    Console.ForegroundColor = ConsoleColor.Magenta;
+    type.TypeWrite(protagonist[random.Next(protagonist.Length)], delay);
+    Console.ForegroundColor = ConsoleColor.DarkMagenta;
+    type.TypeWrite(" ", delay);
+    type.TypeWrite(protagonistTrait[random.Next(protagonistTrait.Length)], delay);
+    Console.ForegroundColor = ConsoleColor.Gray;
+    type.TypeWrite(", who must face ", delay);
+    Console.ForegroundColor = ConsoleColor.Red;
+    type.TypeWrite(antagonist[random.Next(antagonist.Length)], delay);
+    Console.ForegroundColor = ConsoleColor.DarkRed;
+    type.TypeWrite("\n", delay);
+    type.TypeWrite(antagonistTrait[random.Next(antagonistTrait.Length)], delay);
+    Console.ForegroundColor = ConsoleColor.Gray;
+    type.TypeWrite(", in order ", delay);
+    Console.ForegroundColor = ConsoleColor.Blue;
+    type.TypeWrite(motivation[random.Next(motivation.Length)].ToLowerInvariant(), delay);
+    Console.ForegroundColor = ConsoleColor.Gray;
+    type.TypeWrite(".\n", delay);
+}
+
