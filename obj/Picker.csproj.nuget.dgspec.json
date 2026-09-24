@@ -1,26 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/home/ludvig/Documents/Programming/Picker/Picker/Picker.csproj": {}
+    "C:\\Users\\Ludvig\\OneDrive\\Documents\\GitHub\\story-generator\\Picker.csproj": {}
   },
   "projects": {
-    "/home/ludvig/Documents/Programming/Picker/Picker/Picker.csproj": {
+    "C:\\Users\\Ludvig\\OneDrive\\Documents\\GitHub\\story-generator\\Picker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ludvig/Documents/Programming/Picker/Picker/Picker.csproj",
+        "projectUniqueName": "C:\\Users\\Ludvig\\OneDrive\\Documents\\GitHub\\story-generator\\Picker.csproj",
         "projectName": "Picker",
-        "projectPath": "/home/ludvig/Documents/Programming/Picker/Picker/Picker.csproj",
-        "packagesPath": "/home/ludvig/.nuget/packages/",
-        "outputPath": "/home/ludvig/Documents/Programming/Picker/Picker/obj/",
+        "projectPath": "C:\\Users\\Ludvig\\OneDrive\\Documents\\GitHub\\story-generator\\Picker.csproj",
+        "packagesPath": "C:\\Users\\Ludvig\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ludvig\\OneDrive\\Documents\\GitHub\\story-generator\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/ludvig/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Ludvig\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "/usr/lib64/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/10.0.111/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.112/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
